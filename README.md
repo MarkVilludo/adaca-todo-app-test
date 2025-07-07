@@ -13,14 +13,14 @@ A simple Todo API built with Laravel, using the repository and service pattern.
 
 - PHP 8.1+
 - Composer
-- [Optional] Postman or similar API client
+- [Optional] Postman
 
 ## Setup Instructions
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/MarkVilludo/adaca-todo-app-test
+   cd adaca-todo-app-test
    ```
 
 2. **Install dependencies**
@@ -38,7 +38,6 @@ A simple Todo API built with Laravel, using the repository and service pattern.
    - In your `.env` file, set:
      ```
      DB_CONNECTION=sqlite
-     DB_DATABASE=${PWD}/database/database.sqlite
      ```
    - Create the SQLite database file:
      ```bash
