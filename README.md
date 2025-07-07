@@ -60,6 +60,7 @@ A simple Todo API built with Laravel, using the repository and service pattern.
 | Method | Endpoint           | Description                |
 |--------|--------------------|----------------------------|
 | GET    | /api/todos         | List all todos             |
+| GET    | /api/todos?search= | Search Todo/s              |
 | POST   | /api/todos         | Create a new todo          |
 | PUT    | /api/todos/{id}    | Update todo status         |
 | DELETE | /api/todos/{id}    | Delete a todo              |
